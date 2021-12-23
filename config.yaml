@@ -1,0 +1,12 @@
+API_app:
+  url_post: "https://robot-dreams-de-api.herokuapp.com/auth"
+  url_get: "https://robot-dreams-de-api.herokuapp.com//out_of_stock"
+  date: "2021-01-02"
+  username: "rd_dreams"
+  password: "djT6LasE"
+  auth: JWT <jwt_token>
+  output type: JSON
+  product_id:
+    - '47066'
+    - '35855'
+  directory: "./data/"
